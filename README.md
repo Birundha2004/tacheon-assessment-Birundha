@@ -13,3 +13,4 @@ Assessment tasks submitted for the Data & AI Product Engineer role at Tacheon/Sm
 - [ ] Task 2: Pipeline Building
 
 *Work in progress – started Day 1*
+Task 1: Add product brief and v1 scope
