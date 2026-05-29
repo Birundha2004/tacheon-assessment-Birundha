@@ -88,16 +88,16 @@ python pipeline.py
 
 You should see logs like:
 ```
-2026-05-29 07:00:01  INFO     === Weather Pipeline v1.0 starting ===
-2026-05-29 07:00:02  INFO     Fetching weather data for Chennai (lat=13.0827, lon=80.2707)
-2026-05-29 07:00:03  INFO     Successfully fetched 7 days of weather data.
-2026-05-29 07:00:03  INFO     Transforming raw data...
-2026-05-29 07:00:03  INFO     Transformation complete. 7 rows ready to load.
-2026-05-29 07:00:04  INFO     Connecting to BigQuery project 'utopian-domain-426110-j3'...
-2026-05-29 07:00:05  INFO     Dataset 'weather_pipeline' already exists.
-2026-05-29 07:00:06  INFO     Loading 7 rows into utopian-domain-426110-j3.weather_pipeline.daily_weather...
-2026-05-29 07:00:08  INFO     Load complete. Table now has 7 rows.
-2026-05-29 07:00:08  INFO     === Pipeline finished successfully ===
+2026-05-29 14:02:12  INFO     === Weather Pipeline v1.0 starting ===
+2026-05-29 14:02:12  INFO     Fetching weather data for Chennai (lat=13.0827, lon=80.2707)
+2026-05-29 14:02:13  INFO     Successfully fetched 7 days of weather data.
+2026-05-29 14:02:13  INFO     Transforming raw data...
+2026-05-29 14:02:13  INFO     Transformation complete. 7 rows ready to load.
+2026-05-29 14:02:13  INFO     Connecting to BigQuery project 'utopian-domain-426110-j3'...
+2026-05-29 14:02:18  INFO     Created dataset 'weather_pipeline'.
+2026-05-29 14:02:18  INFO     Loading 7 rows into utopian-domain-426110-j3.weather_pipeline.daily_weather...
+2026-05-29 14:02:26  INFO     Load complete. Table now has 7 rows.
+2026-05-29 14:02:26  INFO     === Pipeline finished successfully ===
 ```
 
 ---
@@ -142,7 +142,7 @@ ORDER BY location;
 
 | location | week_start | week_end | avg_temp_c | hottest_day_c | coldest_night_c | total_rainfall_mm | rain_days | peak_wind_kmh |
 |---|---|---|---|---|---|---|---|---|
-| Chennai | 2026-05-29 | 2026-06-04 | 34.2 | 37.1 | 28.4 | 12.40 | 3 | 28.5 |
+| Chennai | 2026-05-29 | 2026-06-04 | 33.2 | 39.0 | 27.2 | 6.0 | 6 | 17.3 |
 
 ---
 
